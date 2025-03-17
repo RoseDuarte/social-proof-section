@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'partials/colors';
+@import 'partials/layout';
+
+body {
+    background-color: $secondary-color;
+    background-image: url(./Assets/images/bg-pattern-top-desktop.svg), url(./Assets/images/bg-pattern-bottom-desktop.svg);
+    background-position: 0px -200px, calc(100% + 300px) calc(100% + 300px);
+    background-size: contain, contain;
+    background-repeat: no-repeat;
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(./Assets/images/bg-pattern-top-mobile.svg), url(./Assets/images/bg-pattern-bottom-mobile.svg);
+        background-position: top left, bottom right;
+        background-size: contain;
+    }
+}
