@@ -8,7 +8,7 @@ O projeto apresenta uma seção de prova social que destaca avaliações e depoi
 
 ## 📷 Captura de Tela
 
-![Captura de tela](assets/captura-tela.png)
+![Captura de tela](Assets/captura-tela.png)
 
 ## 🚀 Tecnologias Utilizadas
 
